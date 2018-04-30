@@ -8,8 +8,6 @@ import scrapy
 import time
 
 from scrapy.loader import ItemLoader
-
-from ArticleSpider.items import ZhihuQuestionItem, ZhihuAnswerItem
 global question_id
 try:
     import urlparse as parse
